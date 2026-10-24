@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- STYLE -->
+     <style>
+body{
+    background: linear-gradient(
+        135deg,
+        #050505,
+        #003b35,
+        #00ff99
+    );
+    background-attachment: fixed;
+    background-size: 400% 400%;
+    animation: neonGradient 10s ease infinite;
+    color: #ffffff;
+    padding-top: 60px;
+
+}
+@keyframes neonGradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+h1,h2{
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: azure;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+ nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(108, 222, 123, 0.545);
+            z-index: index 100%;
+            padding: 12px 0;
+            box-shadow: 0 2px 5px rgba(108, 222, 123, 0.545);
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        a{
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgba(97, 221, 221, 0.758);
+            text-decoration: none;
+            border-radius: 6px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+     </style>
+    <!-- my projects -->
+    <center>
+        <header>
+            <h1>My projects</h1>
+        </header>
+  
+     <!-- project 1 -->
+<article class="project-card">
+    <h2>Project 01</h2>
+    <p>a Project on learning how to use classes</p>
+    <a href="02-classes-ids.html">view project</a>
+</article>
+<br>
+<!-- project 2 -->
+<article class="project-card">
+    <h2>Project 02</h2>
+    <p>a project where I practice making a navigation bar and I enjoy playing with it</p>
+    <a href="03-navigation.html">view project</a>
+</article>
+<br>
+<!-- project 3 -->
+<article class="project-card">
+    <h2>Project 03</h2>
+    <p>this is the project where I start putting together what I learned</p>
+    <a href="05-semantic.html">view project</a>
+</article>
+  </center>
+<!-- nav bar -->
+<nav>
+    <ul>
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>

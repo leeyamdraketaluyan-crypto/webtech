@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- style -->
+     <style>
+        body{
+            background: linear-gradient(
+                135deg,
+                #5CE1E6,
+                #10226b,
+                #4389A2
+            );
+            background-attachment: fixed;
+            background-size: 400% 400%;
+            animation: neonGradient 10s ease infinite;
+            color: #ffffff;
+        }
+        @keyframes neonGradient{
+            0%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0% 50%;
+            }
+        }
+        nav{
+            position:fixed;
+            top:0;
+            left: 0;
+            width:100%;
+            background-color: rgba(129, 85, 85, 0.149);
+            z-index: index 100%;
+            padding: 12px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        body{
+            padding-top: 60px;
+        }
+        a{
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: azure;
+            text-decoration: none;
+            border-radius: 6px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+     </style>
+    <!-- ang aking header -->
+     <center>
+        <header>
+            <h1>Welcome to my Portfolio</h1>
+            <h3>Galingan, Leeyam Drake T.</h3>
+            <p>My name is Leeyam. I was born on September 3, 2007, which makes me 18 years old now.
+                 I am the 3rd eldest among my siblings, and sometimes I help my parents, 
+                 especially when there is work to be done at home.
+                 I am a kind and simple person, and I try to get along well with others.</p>
+        </header>
+     </center>
+     <!-- navigation bars -->
+      <nav>
+        <ul>
+            <li><a href="portfolio.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+      <center>
+      <img src="../emmet-laboratory/images/leeyam.jpg" alt="picture">
+      </center>
+</body>
+</html>

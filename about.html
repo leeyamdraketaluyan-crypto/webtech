@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- body style -->
+     <style>
+        body{
+           background: linear-gradient(
+        135deg,
+        #d291ff,
+        #3b153f,
+        #8962d5
+           );
+         background-attachment: fixed;
+    background-size: 400% 400%;
+    animation: neonGradient 10s ease infinite;
+    color: #ffffff;
+    padding: 60px;
+        }
+        nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(138, 101, 158);
+            z-index: index 100%;
+            padding: 12px 0;
+            box-shadow: 0 2px 5px rgb(138, 101, 158);
+        }
+        @keyframes neonGradient{
+          0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }   
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        a{
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgba(105, 42, 168, 0.771);
+            text-decoration: none;
+            border-radius: 6px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(237, 232, 232);
+        }
+     </style>
+    <!-- short biography -->
+<center>
+    <header>
+        <h1>My Biography</h1>
+        <p style="font-size: larger;">My name is Leeyam. I was born on September 3, 2007, which makes me 19 years old now. I am the 3rd eldest among my siblings, and sometimes I help my parents, especially when there is work to be done at home. I am a kind and simple person, and I try to get along well with others.
+
+I finished my elementary and high school studies, and I am currently studying at UC, which is quite far from where we live, so I need to travel every day. Even though it is tiring, I continue because I have dreams for my future.
+
+I chose the IT course because it can help me find a good job in the future and support my family after I graduate.</p>
+    </header>
+    <!-- profile pic -->
+     <style>
+        img{
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15%;
+            border: 3px solid #333;
+            
+        }
+     </style>
+<div>
+    <img src="../emmet-laboratory/images/leeyam.jpg" 
+    alt="profile photo" width="250" 
+    onmouseover="this.style. transform='scale(2)'" 
+    onmouseout="this.style. transform='scale(1)'" 
+    style="transition: transform 0.3s; cursor: pointer;">
+</div>
+</center>
+<!-- navigatio bars -->
+<nav>
+    <ul>
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+</nav>
+
+
+
+</body>
+</html>
