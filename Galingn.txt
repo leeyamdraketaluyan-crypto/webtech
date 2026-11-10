@@ -1,0 +1,1104 @@
+commit c3fb74ac213969b5787c3bb44c9c35cc3bf050c9
+Author:     leeyamdraketaluyan-crypto <leeyamdraketaluyan@gmail.com>
+AuthorDate: 2026-10-24 04:02:06 +0000
+Commit:     leeyamdraketaluyan-crypto <leeyamdraketaluyan@gmail.com>
+CommitDate: 2026-10-24 04:02:06 +0000
+
+    Add new files
+
+diff --git a/01-basic.html b/01-basic.html
+new file mode 100644
+index 0000000..e578aaf
+--- /dev/null
++++ b/01-basic.html
+@@ -0,0 +1,40 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header>
++        <h2>
++            IGOROT KID
++        </h2>
++    </header>
++    <main>
++    <h1>GALINGAN, LEEYAM DRAKE T.</h1>
++    <H2>BORN: 09/03/07 in NATONIN MOUNTAIN PROVINCE</H2>
++    <H2>KUNG KAYA NILA, PAGAWA MO SAKINILA</H2>
++    <p>I am a proud IGOROT born Person</p>
++    <p>I am from the tribe of BALANGAO People</p>
++    <p>I am a mix of BONTOC Blood From my Grand father and A BALANGAO from my Mother </p>
++    </main>
++    <div style="color: blue;">
++        <ul>
++            <li><a href="#">home</a></li>
++            <li><a href="#">about</a></li>
++            <li><a href="#">contact</a></li>
++        </ul>
++    </div>
++    <STYLE>
++        BODY 
++        {
++            background-color: aquamarine;
++            margin: 0;
++            font-family: Arial, Helvetica, sans-serif;
++            color: rgb(83, 79, 79);
++        }
++    </STYLE>
++    <footer>OMENLAHE A NATONIN</footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/02-classes-ids.html b/02-classes-ids.html
+new file mode 100644
+index 0000000..7fbddda
+--- /dev/null
++++ b/02-classes-ids.html
+@@ -0,0 +1,50 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header>
++        <p class="introduction">MY LIFE</p>
++    </header>
++    <NAV> 
++        <div id="container">
++            #
++        </div>
++        <a href="https://www.hulu.com/series/d7b5390e-b8cb-4cc3-ba7c-7ed570355d7d">MY BOOK</a>
++    </NAV>
++   <main>
++    <div class="card featured"> 
++        "What I think of Life?" " does Life bite You back?"
++        <a href="#">MY ANSWER</a>
++    </div>
++   </main>
++<section>
++    <section id="about" class="content-section">
++        <h2>MY WORLD</h2>
++        <p>Hello world</p>
++    </section>
++    <footer><p class="introduction">empty</p></footer>
++    <style>
++        body {
++            background-color: blanchedalmond;
++            color: rgba(241, 4, 4, 0.521);
++        }
++    </style>
++</section>
++<div class="back">
++<style>
++     a{
++        display: inline-block;
++        padding: 10px 20px;
++        text-decoration: none;
++        background-color: rgb(189, 151, 48);
++        border-radius: 6px;
++    }
++</style>
++<a id="u" href="projects.html">Go back</a>
++</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/03-navigation.html b/03-navigation.html
+new file mode 100644
+index 0000000..0b99ce2
+--- /dev/null
++++ b/03-navigation.html
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1 style="color: rgb(103, 167, 167);">NAVS
++    </h1>
++    <style>
++        body{background-color: azure;
++        color: rgb(155, 131, 95);}
++    </style>
++    <nav>
++        <ul>
++            <li>1. <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo&pp=ygUIcmlja3JvbGw%3D">Home</a></li>
++            <li>2. <a href="https://www.youtube.com/watch?v=DkIsPppe_E4&pp=ygUMZ29yaWxsYSBraXNz">About</a></li>
++            <li>3. <a href="https://www.youtube.com/shorts/0vUGkOoK13I">Services</a></li>
++            <li>4. <a href="https://www.youtube.com/shorts/C-QP7uh-lIc">Project</a></li>
++            <li>5. <a href="https://www.youtube.com/watch?v=53BGe8Sq4Hk&pp=ygUMYWFhYWFhYWhoaGho">Conteact</a></li>
++        </ul>
++    </nav>
++    <div class="back">
++<style>
++    a {
++        display: inline-block;
++        padding: 5px 10px;
++        text-decoration: none;
++        background-color: aquamarine;
++        border-radius: 6px;
++    }
++</style>
++<a href="projects.html">Go back</a>
++</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/04-form.html b/04-form.html
+new file mode 100644
+index 0000000..8b47463
+--- /dev/null
++++ b/04-form.html
+@@ -0,0 +1,42 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h2>practice code</h2>
++    <input type="text" name="your name" id="01" placeholder="your name">
++    <br>
++    <input type="email" name="your email" id="02" placeholder="your email">
++    <br>
++    <input type="password" name="your password" id="03" placeholder="password">
++    <br>
++    <input type="checkbox" name="" id="">R u geh(only mark it check if yes)</input>
++    <br>
++   <h2>does your mama know your geh</h2>
++   <ul><input type="radio" name="#" value="1">yes
++    <input type="radio" name="#" value="2">no
++    <input type="radio" name="#" value="3">maybe
++</ul>
++   <br>
++   <input type="submit" value="submit">
++   <hr>
++<h2>personal info:</h2>
++<input type="text" name="Full Name" id="" placeholder="Full Name">
++<input type="text" name="Adress" id="" placeholder="Adress">
++<input type="email" name="Email" id="" placeholder="Email">
++<input type="int" name="Student ID" id="" placeholder="Students ID">
++<input type="text" name="Course" id="" placeholder="Course">
++<input type="password" name="password" id="" placeholder="Password">
++<br>
++<h3>Gender</h3>
++<input type="radio" name="#" value="1">Male
++<input type="radio" name="#" value="2">Female
++<h3>Hobbies</h3>
++<input type="textarea" name="hobbies" rows="5" cols="40" placeholder="write all your Hobbies">
++<br>
++<input type="submit" value="submit">
++</body>
++</html>
+\ No newline at end of file
+diff --git a/05-semantic.html b/05-semantic.html
+new file mode 100644
+index 0000000..ec9e050
+--- /dev/null
++++ b/05-semantic.html
+@@ -0,0 +1,64 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++<center>
++<header>MY FAVORITE STORY
++    <H1>HARRY POTTER</H1>
++</header>
++</center>
++<br>
++<nav>
++    <ul>
++        <li><a href="https://hazidesaratcollege.ac.in/library/uploads/85jkr_harrypotter_1.pdf" target="_blank">BOOKS</a></li>
++<br> 
++        <li><a href="https://www.youtube.com/watch?v=o82DcxCRTzc&pp=ygUVaGFycnlwb3R0ZXIgZXhwbGFpbmVk" target="blank">ABOUT</a></li>
++<br> 
++        <li><a href="https://www.facebook.com/share/1Fi9cSH6pC/" target="blank">CONTACT</a></li>
++<br> 
++        <li><a href="https://gryffindorforlife.weebly.com/summary-of-all-the-books.html" target="_blank">SUMMARY</a></li>
++    </ul>
++</nav>
++<br>
++<main>
++    <section>
++        <article>
++            <center>
++            <h3>
++                What I think about HARY POTTER
++            </h3>
++            <br>
++            <p>
++                Harry Potter is a hugely successful modern fantasy series with immersive world-building, strong character friendships, and a darkening coming-of-age arc that turned a generation into readers—though it has some plot conveniences, uneven later pacing, and later cultural controversy around its author.
++            </p>
++            </center>
++        </article>
++    </section>
++</main>
++<br>
++<footer>
++    <p>read HARRY POTTER it will be fun</p>
++</footer>
++<style>
++    body{
++        background-color: blanchedalmond;
++        color: brown;
++    }
++</style>
++<style>
++    a {
++        display: inline-block;
++        padding: 5px 10px;
++        text-decoration: none;
++        background-color: rgb(216, 151, 98);
++        border-radius: 6px;
++    }
++</style>
++<a href="projects.html">Go back</a>
++</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..0f308dc
+--- /dev/null
++++ b/about.html
+@@ -0,0 +1,106 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <!-- body style -->
++     <style>
++        body{
++           background: linear-gradient(
++        135deg,
++        #d291ff,
++        #3b153f,
++        #8962d5
++           );
++         background-attachment: fixed;
++    background-size: 400% 400%;
++    animation: neonGradient 10s ease infinite;
++    color: #ffffff;
++    padding: 60px;
++        }
++        nav{
++            position: fixed;
++            top: 0;
++            left: 0;
++            width: 100%;
++            background-color: rgb(138, 101, 158);
++            z-index: index 100%;
++            padding: 12px 0;
++            box-shadow: 0 2px 5px rgb(138, 101, 158);
++        }
++        @keyframes neonGradient{
++          0%{
++        background-position: 0% 50%;
++    }
++    50%{
++        background-position: 100% 50%;
++    }
++    100%{
++        background-position: 0% 50%;
++    }   
++        }
++        nav ul{
++            list-style: none;
++            margin: 0;
++            padding: 0;
++            display: flex;
++            justify-content: center;
++            gap: 30px;
++        }
++        a{
++            display: inline-block;
++            padding: 10px 20px;
++            background-color: rgba(105, 42, 168, 0.771);
++            text-decoration: none;
++            border-radius: 6px;
++            font-family: Arial, Helvetica, sans-serif;
++            color: rgb(237, 232, 232);
++        }
++     </style>
++    <!-- short biography -->
++<center>
++    <header>
++        <h1>My Biography</h1>
++        <p style="font-size: larger;">My name is Leeyam. I was born on September 3, 2007, which makes me 19 years old now. I am the 3rd eldest among my siblings, and sometimes I help my parents, especially when there is work to be done at home. I am a kind and simple person, and I try to get along well with others.
++
++I finished my elementary and high school studies, and I am currently studying at UC, which is quite far from where we live, so I need to travel every day. Even though it is tiring, I continue because I have dreams for my future.
++
++I chose the IT course because it can help me find a good job in the future and support my family after I graduate.</p>
++    </header>
++    <!-- profile pic -->
++     <style>
++        img{
++            width: 250px;
++            height: 250px;
++            object-fit: cover;
++            border-radius: 15%;
++            border: 3px solid #333;
++            
++        }
++     </style>
++<div>
++    <img src="../emmet-laboratory/images/leeyam.jpg" 
++    alt="profile photo" width="250" 
++    onmouseover="this.style. transform='scale(2)'" 
++    onmouseout="this.style. transform='scale(1)'" 
++    style="transition: transform 0.3s; cursor: pointer;">
++</div>
++</center>
++<!-- navigatio bars -->
++<nav>
++    <ul>
++        <li><a href="portfolio.html">Home</a></li>
++        <li><a href="about.html">About</a></li>
++        <li><a href="skills.html">Skills</a></li>
++        <li><a href="projects.html">projects</a></li>
++        <li><a href="contacts.html">Contacts</a></li>
++    </ul>
++</nav>
++
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/contacts.html b/contacts.html
+new file mode 100644
+index 0000000..9178b15
+--- /dev/null
++++ b/contacts.html
+@@ -0,0 +1,128 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <!-- style -->
++     <style>
++        html,body{
++            background-color: blanchedalmond;
++            height: 100%;
++            margin: 0;
++        }
++        body{
++             background: linear-gradient(
++        135deg,
++        #FFD36E,
++        #be6424,
++        #FF8C69
++           );
++         background-attachment: fixed;
++    background-size: 400% 400%;
++    animation: neonGradient 10s ease infinite;
++    color: #ffffff;
++        }
++        @keyframes neonGradient{
++             0%{
++        background-position: 0% 50%;
++    }
++    50%{
++        background-position: 100% 50%;
++    }
++    100%{
++        background-position: 0% 50%;
++    }   
++        }
++        body{
++            display: flex;
++            flex-direction: column;
++            min-height: 100vh;
++            padding-top: 60px;
++        }
++        main{
++            flex: 1;
++        }
++        footer{
++            background: #222;
++            color: white;
++            text-align: center;
++            padding: 18px;
++        }
++        form{
++            max-width: 400px;
++            margin: 30px auto;
++            display: flex;
++            flex-direction: column;
++            gap: 12px;
++        }
++        input, textarea{
++            width: 100%;
++            padding: 10px;
++            box-sizing: border-box;
++        }
++         nav{
++            position: fixed;
++            top: 0;
++            left: 0;
++            width: 100%;
++            background-color: rgba(234, 172, 118, 0.777);
++            z-index: index 100%;
++            padding: 12px 0;
++            box-shadow: 0 2px 5px rgba(234, 172, 118, 0.777);
++        }
++        nav ul{
++            list-style: none;
++            margin: 0;
++            padding: 0;
++            display: flex;
++            justify-content: center;
++            gap: 30px;
++        }
++        a{
++            display: inline-block;
++            padding: 10px 20px;
++            background-color: rgb(171, 69, 6);
++            text-decoration: none;
++            border-radius: 6px;
++            font-family: Arial, Helvetica, sans-serif;
++            color: rgb(255, 250, 250);
++        }
++     </style>
++    <!-- contacts -->
++<main>
++    <center>
++        <h1>Contact</h1>
++    
++        <form action="https://formspree.io/f/mjyyvonk" method="post">
++            <input type="text" name="name" placeholder="full name" required >  
++            <input type="email" name="email" placeholder="email" required>   
++            <input type="text" name="subject" placeholder="subject" required>   
++            <textarea name="message" placeholder="message" rows="5" required></textarea>   
++            <input type="submit" value="submit">
++        </form>
++
++         <a href="https://www.facebook.com/share/1Fi9cSH6pC/" 
++         style="text-decoration: none; color: rgb(246, 246, 250); font-size:larger;">facebook</a>
++        
++    </center>
++</main>
++<!-- nav bar -->
++ <nav>
++    <ul>
++        <li><a href="portfolio.html">Home</a></li>
++        <li><a href="about.html">About</a></li>
++        <li><a href="skills.html">Skills</a></li>
++        <li><a href="projects.html">projects</a></li>
++        <li><a href="contacts.html">Contacts</a></li>
++    </ul>
++</nav>
++
++
++<footer>
++    &copy; 2026 Galingan, Leeyam Drake T.
++</footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/images/HTML.png b/images/HTML.png
+new file mode 100644
+index 0000000..7c11db1
+Binary files /dev/null and b/images/HTML.png differ
+diff --git a/images/cooking.jpg b/images/cooking.jpg
+new file mode 100644
+index 0000000..f487af3
+Binary files /dev/null and b/images/cooking.jpg differ
+diff --git a/images/leeyam.jpg b/images/leeyam.jpg
+new file mode 100644
+index 0000000..a955701
+Binary files /dev/null and b/images/leeyam.jpg differ
+diff --git a/images/taekwondo.jpg b/images/taekwondo.jpg
+new file mode 100644
+index 0000000..c1f18df
+Binary files /dev/null and b/images/taekwondo.jpg differ
+diff --git a/index.html b/index.html
+index e69de29..7069f31 100644
+--- a/index.html
++++ b/index.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <title style="color: black;">MY EMMET LABORATORY</title>
++    <style>
++        h1 {text-align: center;
++        padding-top: 50px;}
++    </style>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/portfolio.html b/portfolio.html
+new file mode 100644
+index 0000000..b5bc1c6
+--- /dev/null
++++ b/portfolio.html
+@@ -0,0 +1,90 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <!-- style -->
++     <style>
++        body{
++            background: linear-gradient(
++                135deg,
++                #5CE1E6,
++                #10226b,
++                #4389A2
++            );
++            background-attachment: fixed;
++            background-size: 400% 400%;
++            animation: neonGradient 10s ease infinite;
++            color: #ffffff;
++        }
++        @keyframes neonGradient{
++            0%{
++                background-position: 0% 50%;
++            }
++            50%{
++                background-position: 100% 50%;
++            }
++            100%{
++                background-position: 0% 50%;
++            }
++        }
++        nav{
++            position:fixed;
++            top:0;
++            left: 0;
++            width:100%;
++            background-color: rgba(129, 85, 85, 0.149);
++            z-index: index 100%;
++            padding: 12px 0;
++            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
++        }
++        nav ul{
++            list-style: none;
++            margin: 0;
++            padding: 0;
++            display: flex;
++            justify-content: center;
++            gap: 30px;
++        }
++        body{
++            padding-top: 60px;
++        }
++        a{
++            display: inline-block;
++            padding: 10px 20px;
++            background-color: azure;
++            text-decoration: none;
++            border-radius: 6px;
++            font-family: Arial, Helvetica, sans-serif;
++            color: black;
++        }
++     </style>
++    <!-- ang aking header -->
++     <center>
++        <header>
++            <h1>Welcome to my Portfolio</h1>
++            <h3>Galingan, Leeyam Drake T.</h3>
++            <p>My name is Leeyam. I was born on September 3, 2007, which makes me 18 years old now.
++                 I am the 3rd eldest among my siblings, and sometimes I help my parents, 
++                 especially when there is work to be done at home.
++                 I am a kind and simple person, and I try to get along well with others.</p>
++        </header>
++     </center>
++     <!-- navigation bars -->
++      <nav>
++        <ul>
++            <li><a href="portfolio.html">Home</a></li>
++            <li><a href="about.html">About</a></li>
++            <li><a href="skills.html">Skills</a></li>
++            <li><a href="projects.html">Projects</a></li>
++            <li><a href="contacts.html">Contacts</a></li>
++        </ul>
++      </nav>
++      <center>
++      <img src="../emmet-laboratory/images/leeyam.jpg" alt="picture">
++      </center>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/projects.html b/projects.html
+new file mode 100644
+index 0000000..bb44545
+--- /dev/null
++++ b/projects.html
+@@ -0,0 +1,118 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <!-- STYLE -->
++     <style>
++body{
++    background: linear-gradient(
++        135deg,
++        #050505,
++        #003b35,
++        #00ff99
++    );
++    background-attachment: fixed;
++    background-size: 400% 400%;
++    animation: neonGradient 10s ease infinite;
++    color: #ffffff;
++    padding-top: 60px;
++
++}
++@keyframes neonGradient{
++    0%{
++        background-position: 0% 50%;
++    }
++    50%{
++        background-position: 100% 50%;
++    }
++    100%{
++        background-position: 0% 50%;
++    }
++}
++h1,h2{
++    font-style: normal;
++    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
++    font-weight: 100;
++}
++a{
++    display: inline-block;
++    padding: 10px 20px;
++    background-color: azure;
++    text-decoration: none;
++    border-radius: 6px;
++    font-family: Arial, Helvetica, sans-serif;
++    color: black;
++
++}
++ nav{
++            position: fixed;
++            top: 0;
++            left: 0;
++            width: 100%;
++            background-color: rgba(108, 222, 123, 0.545);
++            z-index: index 100%;
++            padding: 12px 0;
++            box-shadow: 0 2px 5px rgba(108, 222, 123, 0.545);
++        }
++        nav ul{
++            list-style: none;
++            margin: 0;
++            padding: 0;
++            display: flex;
++            justify-content: center;
++            gap: 30px;
++        }
++        a{
++            display: inline-block;
++            padding: 10px 20px;
++            background-color: rgba(97, 221, 221, 0.758);
++            text-decoration: none;
++            border-radius: 6px;
++            font-family: Arial, Helvetica, sans-serif;
++            color: black;
++        }
++     </style>
++    <!-- my projects -->
++    <center>
++        <header>
++            <h1>My projects</h1>
++        </header>
++  
++     <!-- project 1 -->
++<article class="project-card">
++    <h2>Project 01</h2>
++    <p>a Project on learning how to use classes</p>
++    <a href="02-classes-ids.html">view project</a>
++</article>
++<br>
++<!-- project 2 -->
++<article class="project-card">
++    <h2>Project 02</h2>
++    <p>a project where I practice making a navigation bar and I enjoy playing with it</p>
++    <a href="03-navigation.html">view project</a>
++</article>
++<br>
++<!-- project 3 -->
++<article class="project-card">
++    <h2>Project 03</h2>
++    <p>this is the project where I start putting together what I learned</p>
++    <a href="05-semantic.html">view project</a>
++</article>
++  </center>
++<!-- nav bar -->
++<nav>
++    <ul>
++        <li><a href="portfolio.html">Home</a></li>
++        <li><a href="about.html">About</a></li>
++        <li><a href="skills.html">Skills</a></li>
++        <li><a href="projects.html">projects</a></li>
++        <li><a href="contacts.html">Contacts</a></li>
++    </ul>
++</nav>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/skills.html b/skills.html
+new file mode 100644
+index 0000000..6b8f6c0
+--- /dev/null
++++ b/skills.html
+@@ -0,0 +1,122 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <!-- STYLE -->
++     <style>
++        img{
++            width: 300px;
++            height: 300px;
++            object-fit: cover;
++            border-radius: 10%;
++            border: 3px solid white;
++            transform-origin: center;
++            transition: transform 0.3s ease;
++        }
++        img:hover{
++            transform: scale(2);
++            position:relative;
++            z-index: 10;
++        }
++        video
++        {
++            display: block;
++            width: 700px;
++            height: 400px;
++            object-fit: cover;
++            border-radius: 5%;
++            
++        }
++        p{
++            font-weight: bold;
++            font-size: larger;
++        }
++        body{
++            background: linear-gradient(
++        135deg,
++       #38f9d7,
++       #0e4c54,
++       #43a5d9
++    );
++    background-attachment: fixed;
++    background-size: 400% 400%;
++    animation: neonGradient 10s ease infinite;
++    color: #ffffff;
++    padding-top: 60px;
++        }
++        @keyframes neonGradient{
++          0%{
++        background-position: 0% 50%;
++    }
++    50%{
++        background-position: 100% 50%;
++    }
++    100%{
++        background-position: 0% 50%;
++    }   
++        }
++        nav{
++            position: fixed;
++            top: 0;
++            left: 0;
++            width: 100%;
++            background-color: aliceblue;
++            z-index: index 100%;
++            padding: 12px 0;
++            box-shadow: 0 2px 5px aliceblue;
++        }
++        nav ul{
++            list-style: none;
++            margin: 0;
++            padding: 0;
++            display: flex;
++            justify-content: center;
++            gap:  30px;
++        }
++        a{
++            display: inline-block;
++            padding: 10px 20px;
++            background-color: rgb(162, 172, 172);
++            text-decoration: none;
++            border-radius: 6px;
++            font-family: Arial, Helvetica, sans-serif;
++            color: black;
++        }
++     </style>
++    <!-- my skills -->
++    <center>
++        <header>
++            <h1 style=" font-family: 'poppins', sans-serif; font-weight: 700;">My Skills</h1>
++        </header>
++            <p>I have a Skill in HTML</p>
++            <img src="./images/HTML.png" alt="html" >
++
++            <p>I have a Skill in video Editing </p>
++            <video src="../emmet-laboratory/videos/edit.mp4" controls></video>
++
++            <p>I have a Skill in Making masks</p>
++            <video src="../emmet-laboratory/videos/mask.mp4" controls></video>
++
++            <p>I have a Skill in Taekwondo</p>
++            <img src="../emmet-laboratory/images/taekwondo.jpg" alt="html">
++
++            <p>I have a Skill in Cooking</p>
++            <img src="../emmet-laboratory/images/cooking.jpg" alt="html">
++        
++    </center>
++    <!-- nav bar -->
++     <nav>
++        <ul>
++            <li><a href="portfolio.html">Home</a></li>
++            <li><a href="about.html">About</a></li>
++            <li><a href="skills.html">Skills</a></li>
++            <li><a href="projects.html">projects</a></li>
++            <li><a href="contacts.html">Contacts</a></li>
++        </ul>
++     </nav>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/unused files/Attributes.html b/unused files/Attributes.html
+new file mode 100644
+index 0000000..302039b
+--- /dev/null
++++ b/unused files/Attributes.html	
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <input type="text">
++    <hr>
++    <input type="text" placeholder="enter your name">
++    <hr>
++    <input type="email" placeholder="enter your email">
++    <hr>
++    <img src="images/leeyam.jpg" alt="profile photo">
++    <hr>
++    <a href="https://www.google.com">Google</a>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/unused files/childsiblingoperator.html b/unused files/childsiblingoperator.html
+new file mode 100644
+index 0000000..f76a0d2
+--- /dev/null
++++ b/unused files/childsiblingoperator.html	
+@@ -0,0 +1,44 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <style>
++        body {background-color: rgba(60, 255, 0, 0.123);}
++    </style>
++    <h2 style="color: rgb(143, 125, 93);"> My I list:</h2>
++    <div style="color: rgb(25, 175, 175);">
++        <p>I have a heart</p>
++        <p>I have a mind</p>
++        <p>I have a soul</p>
++        <p>I have a compasion</p>
++        <p>I have a humility</p>
++    </div>
++    <div style="color: rgba(18, 51, 51, 0.774);">
++        <p>I Want peace</p>
++        <p>I Want stability</p>
++        <p>I Want love</p>
++        <p>I Want luck</p>
++        <p>I Want life</p>
++    </div>
++    <div style="color: brown;">
++        <p>I Hate greed</p>
++        <p>I Hate jelousy</p>
++        <p>I Hate war</p>
++        <p>I Hate preassure</p>
++        <p>I Hate mess</p>
++    </div>
++    <nav>
++        <ul>
++            <li><a href="#">how to have some peace</a></li>
++            <li><a href="#">how to have some quiet</a></li>
++            <li><a href="#">how to have some stability</a></li>
++            <li><a href="#">how to have some life</a></li>
++            <li><a href="#">how to have some heart</a></li>
++        </ul>
++    </nav>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/unused files/complex_emmet.html b/unused files/complex_emmet.html
+new file mode 100644
+index 0000000..1cd8628
+--- /dev/null
++++ b/unused files/complex_emmet.html	
+@@ -0,0 +1,26 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <center>
++        <div class="container portfolio">
++            <header>
++                <h1>My portfolio</h1>
++                <p>Web Developer</p>
++                <nav>
++                    <ul>
++                        <li><a href="#">menu 1</a></li>
++                        <li><a href="#">menu 2</a></li>
++                        <li><a href="#">menu 3</a></li>
++                        <li><a href="#">menu 4</a></li>
++                    </ul>
++                </nav>
++            </header>
++        </div>
++    </center>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/unused files/navspart2.html b/unused files/navspart2.html
+new file mode 100644
+index 0000000..604d1e2
+--- /dev/null
++++ b/unused files/navspart2.html	
+@@ -0,0 +1,28 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <nav>
++        <ul>
++            <li><a href="#">link 1</a></li>
++            <li><a href="#">link 2</a></li>
++            <li><a href="#">link 3</a></li>
++            <li><a href="#">link 4</a></li>
++            <li><a href="#">link 5</a></li>
++        </ul>
++    </nav>
++    <nav>
++        <ul>
++            <li><a href="#">Home</a></li>
++            <li><a href="#">About</a></li>
++            <li><a href="#">Portfolio</a></li>
++            <li><a href="#">Services</a></li>
++            <li><a href="#">Contact</a></li>
++        </ul>
++    </nav>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/unused files/using{}.html b/unused files/using{}.html
+new file mode 100644
+index 0000000..6d58ac4
+--- /dev/null
++++ b/unused files/using{}.html	
+@@ -0,0 +1,20 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <center>
++    <h1>My Web Development Journey</h1>
++    <p>I am learning HTML, CSS, JavaScript, and web development.</p>
++    </center>
++
++<style>
++    body{background-color: rgba(0, 0, 0, 0.61);
++    color: white;
++    }
++</style>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/videos/edit.mp4 b/videos/edit.mp4
+new file mode 100644
+index 0000000..f1d0393
+Binary files /dev/null and b/videos/edit.mp4 differ
+diff --git a/videos/mask.mp4 b/videos/mask.mp4
+new file mode 100644
+index 0000000..5f0933e
+Binary files /dev/null and b/videos/mask.mp4 differ
+
+commit 718c060494055fb43889e22890510fdc79180bc6
+Author:     leeyamdraketaluyan-crypto <leeyamdraketaluyan@gmail.com>
+AuthorDate: 2026-10-22 07:19:40 +0000
+Commit:     leeyamdraketaluyan-crypto <leeyamdraketaluyan@gmail.com>
+CommitDate: 2026-10-22 07:19:40 +0000
+
+    initial commit - index.html
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..e69de29

@@ -61,6 +61,15 @@
             font-family: Arial, Helvetica, sans-serif;
             color: black;
         }
+         img{
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15%;
+            border: 3px solid #333;
+            
+        }
+
      </style>
     <!-- ang aking header -->
      <center>
@@ -84,7 +93,12 @@
         </ul>
       </nav>
       <center>
-      <img src="../emmet-laboratory/images/leeyam.jpg" alt="picture">
+        <div>
+            <img src="/images/leeyam.jpg" alt="picture" width="250"
+            onmouseover="this.style. transform='scale(2)'"
+            onmouseout="this.style. transform='scale(1)'"
+            style="transition: transform 0.3s; cursor: pointer;">
+        </div>
       </center>
 </body>
 </html>
