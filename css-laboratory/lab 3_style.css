@@ -1,0 +1,23 @@
+body{
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+h1{
+    size: 32px;
+    color: darkblue;
+    text-align: center;
+}
+h2{
+    color: darkgreen;
+    size: 22px;
+}
+ul{
+    line-height: 1.8;
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
